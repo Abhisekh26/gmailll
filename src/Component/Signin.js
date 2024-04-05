@@ -38,7 +38,7 @@ function Signin() {
             
              dispatch(authAction.setToken(result.idToken))
             console.log(idtoken)
-            // window.location.href="/"
+             window.location.href="/compose"
         }
     }
 
